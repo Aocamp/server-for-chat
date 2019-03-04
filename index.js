@@ -7,33 +7,32 @@ app.get('/', (req, res) => {
 
     res.send('Chat Server is running on port 8888')
 });
+
+    var room;
+
 io.on('connection', (socket) => {
-
     console.log('user connected');
-
 socket.on('connection', function(userNickname) {
-
-    console.log(userNickname +" : has joined the chat "  );
-
-    socket.broadcast.emit('userjoinedthechat',userNickname +" : has joined the chat ");
+    socket.on('room', function (roomName) {
+        socket.join(roomName);
+        console.log(userNickname +" : has joined the " + roomName + "room" );
+    });
 });
 
-
-socket.on('new message', (user, messageContent) => {
-
+socket.on('new message', (user, roomName, messageContent) => {
     //log the message in console
-
     console.log(user + ": "+ messageContent);
 
-//create a message object
+    //create a message object
+    let  message = {"message":messageContent, "user":user};
 
-let  message = {"message":messageContent, "user":user};
-
-// send the message to all users including the sender  using io.emit()
-
-socket.broadcast.emit('message', message)
+    io.sockets.in(roomName).emit('message', message)
 
 });
+
+socket.on('reconnect', () => {
+        socket.emit('room', room)
+    })
 
 socket.on('disconnect', function() {
 
