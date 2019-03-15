@@ -7,136 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4f348c8-1dfa-44af-b72a-8704e70eb8b1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/bignumber.js/LICENCE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/bignumber.js/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/bignumber.js/bignumber.d.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/bignumber.js/bignumber.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/bignumber.js/bignumber.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/bignumber.js/bignumber.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/bignumber.js/bignumber.mjs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/bignumber.js/bower.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/bignumber.js/doc/API.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/bignumber.js/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/core-util-is/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/core-util-is/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/core-util-is/float.patch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/core-util-is/lib/util.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/core-util-is/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/core-util-is/test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/Changes.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/License" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/Readme.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/Connection.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/ConnectionConfig.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/Pool.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/PoolCluster.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/PoolConfig.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/PoolConnection.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/PoolNamespace.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/PoolSelector.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/Auth.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/BufferList.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/PacketHeader.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/PacketWriter.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/Parser.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/Protocol.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/ResultSet.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/SqlString.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/Timer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/charsets.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/client.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/errors.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/field_flags.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/server_status.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/ssl_profiles.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/constants/types.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/AuthSwitchRequestPacket.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/AuthSwitchResponsePacket.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ClientAuthenticationPacket.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ComChangeUserPacket.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ComPingPacket.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ComQueryPacket.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ComQuitPacket.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ComStatisticsPacket.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/EmptyPacket.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/EofPacket.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ErrorPacket.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/Field.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/FieldPacket.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/HandshakeInitializationPacket.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/LocalDataFilePacket.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/OkPacket.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/OldPasswordPacket.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/ResultSetHeaderPacket.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/RowDataPacket.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/SSLRequestPacket.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/StatisticsPacket.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/UseOldPasswordPacket.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/packets/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/ChangeUser.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Handshake.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Ping.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Query.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Quit.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Sequence.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Statistics.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/mysql/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/process-nextick-args/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/process-nextick-args/license.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/process-nextick-args/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/process-nextick-args/readme.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/.travis.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/CONTRIBUTING.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/GOVERNANCE.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/duplex-browser.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/duplex.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_duplex.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_passthrough.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_readable.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_transform.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/_stream_writable.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/internal/streams/BufferList.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/internal/streams/destroy.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/internal/streams/stream-browser.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/lib/internal/streams/stream.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/isarray/.npmignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/isarray/.travis.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/isarray/Makefile" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/isarray/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/isarray/component.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/isarray/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/isarray/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/isarray/test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/passthrough.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/readable-browser.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/readable.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/transform.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/writable-browser.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/readable-stream/writable.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/sqlstring/HISTORY.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/sqlstring/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/sqlstring/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/sqlstring/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/sqlstring/lib/SqlString.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/sqlstring/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/string_decoder/.travis.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/string_decoder/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/string_decoder/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/string_decoder/lib/string_decoder.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/string_decoder/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/util-deprecate/History.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/util-deprecate/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/util-deprecate/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/util-deprecate/browser.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/util-deprecate/node.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/util-deprecate/package.json" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -162,8 +34,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="1143">
+              <caret line="63" column="42" lean-forward="false" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -232,9 +104,6 @@
       <select />
     </treeState>
   </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-11" />
     <option name="y" value="-11" />
@@ -257,6 +126,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -274,9 +146,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -351,7 +220,8 @@
       <workItem from="1551244258832" duration="11771000" />
       <workItem from="1551415777414" duration="1923000" />
       <workItem from="1551670943736" duration="10282000" />
-      <workItem from="1552624821856" duration="660000" />
+      <workItem from="1552624821856" duration="1284000" />
+      <workItem from="1552626806229" duration="3455000" />
     </task>
     <task id="LOCAL-00001" summary="create rooms">
       <created>1551678823605</created>
@@ -367,11 +237,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552625399635</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add queries">
+      <created>1552625503514</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552625503514</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29171000" />
+    <option name="totallyTimeSpent" value="33250000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -384,19 +261,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34771886" sideWeight="0.5108108" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292232" sideWeight="0.48918918" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292232" sideWeight="0.48918918" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27945945" sideWeight="0.4759556" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28432432" sideWeight="0.4759556" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26756757" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25945947" sideWeight="0.4924812" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972972" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39950678" sideWeight="0.49783784" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20972973" sideWeight="0.51294696" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39950678" sideWeight="0.49783784" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -428,6 +305,30 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
@@ -579,8 +480,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="1143">
+          <caret line="63" column="42" lean-forward="false" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
           <folding />
         </state>
       </provider>

@@ -6,6 +6,7 @@ const express = require('express'),
 
 let mysql = require('mysql');
 
+let nameOfExistingRoom;
 let nameOfRoom;
 let idOfRoom;
 let idOfUser;
@@ -54,15 +55,22 @@ io.on('connection', (socket) => {
                         if(!roomId.length)
                         {
                             socket.join(roomName);
+                            nameOfRoom = roomName;
                             let params = [roomName, data];
                             db.query('INSERT INTO rooms (room_name, user_id) VALUES (?, ?)', params);
+                            db.query('SELECT id FROM room where room_name = ?', roomName, function (err, response) {
+                                let toString = JSON.stringify(response[0].id);
+                                let roomId = JSON.parse(s);
+                                let  idMessage = {"id":roomId};
+                                io.sockets.in(nameOfRoom).emit('roomId', idMessage)
+                            })
                         }
                         else {
                             console.log("room exist");
                             let a = JSON.stringify(roomId[0].id);
                             let roomData = JSON.parse(a);
                             idOfRoom = roomData;
-
+                            console.log(idOfRoom);
                             db.query('SELECT room_name FROM rooms where id = ?', roomData, function (err, room) {
                                 if(err)
                                     return console.log(err);
@@ -72,7 +80,9 @@ io.on('connection', (socket) => {
                                     socket.join(userRoom);
                                     console.log(userNickname +" : has joined the " + userRoom + " room" );
                                     //console.log(io.sockets.sockets[userRoom]);
-                                    nameOfRoom = userRoom;
+                                    nameOfExistingRoom = userRoom;
+                                    let  idMessage = {"id":idOfRoom};
+                                    io.sockets.in(nameOfExistingRoom).emit('roomId', idMessage)
                                 }
                             });
                         }
@@ -91,7 +101,11 @@ io.on('connection', (socket) => {
 
         let  message = {"message":messageContent, "user":user};
 
-        io.sockets.in(nameOfRoom).emit('message', message)
+        if(!nameOfExistingRoom.length){
+            io.sockets.in(nameOfRoom).emit('message', message)
+        }else {
+            io.sockets.in(nameOfExistingRoom).emit('message', message)
+        }
     });
 
     socket.on('disconnect', function() {
